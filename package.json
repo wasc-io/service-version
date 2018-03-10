@@ -7,8 +7,13 @@
   "author": "Nicolai Schmid <nicolai@schmid.uno>",
   "license": "Apache",
   "private": false,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "project-version": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
 }
