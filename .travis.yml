@@ -2,6 +2,9 @@ language: node_js
 node_js:
   - node
 
+cache: 
+  yarn: true
+
 deploy:
   provider: npm
   email: $NPM_EMAIL
