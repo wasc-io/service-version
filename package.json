@@ -1,0 +1,14 @@
+{
+  "name": "service-version",
+  "version": "0.1.0",
+  "description": "A middleware, appending a `x-version` header containing the current packages version\"",
+  "main": "index.js",
+  "repository": "github.com/wasc/service-version",
+  "author": "Nicolai Schmid <nicolai@schmid.uno>",
+  "license": "Apache",
+  "private": false,
+  "dependencies": {
+    "project-version": "^1.0.0"
+  },
+  "devDependencies": {}
+}
