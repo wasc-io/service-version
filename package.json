@@ -1,6 +1,6 @@
 {
   "name": "service-version",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "A middleware, appending a `x-version` header containing the current packages version\"",
   "main": "index.js",
   "repository": "github.com/wasc/service-version",
