@@ -6,7 +6,7 @@ cache:
   yarn: true
 
 script:
-  - npm build
+  - npm run build
 
 deploy:
   provider: npm
