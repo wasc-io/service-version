@@ -1,7 +1,7 @@
 'use strict'
-const serviceVersion = require('project-version');
+import projectVersion from 'project-version'
 
-function version(options) {
+export default (options) => {
     options = options || {};
 
     if (options.constructor.name === 'IncomingMessage') {
@@ -9,9 +9,7 @@ function version(options) {
     }
 
     return function version(request, response, next) {
-        response.header('x-version', serviceVersion);
+        response.header('x-version', projectVersion);
         next();
     }
 }
-
-module.exports = version;
