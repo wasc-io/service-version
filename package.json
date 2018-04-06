@@ -17,7 +17,9 @@
     "test": "jest"
   },
   "files": [
-    "dist"
+    "dist",
+    "docs/",
+    "README.md"
   ],
   "dependencies": {
     "project-version": "^1.0.0"
