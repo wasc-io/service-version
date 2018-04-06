@@ -1,7 +1,7 @@
 import pkg from './package.json';
 
 export default {
-    external: ['connect', 'helmet', 'express-validator', 'body-parser', 'service-version', 'cors'],
+    external: ['project-version'],
     // CommonJS (for Node) and ES module (for bundlers) build.
     // (We could have three entries in the configuration array
     // instead of two, but it's quicker to generate multiple
