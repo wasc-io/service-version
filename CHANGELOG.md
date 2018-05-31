@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/wasc-io/service-version/compare/v1.1.2...v1.2.0) (2018-05-31)
+
+
+### Features
+
+* updated project-version to read-pkg-up for closest package.json ([3c90004](https://github.com/wasc-io/service-version/commit/3c90004))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/wasc-io/service-version/compare/v1.1.1...v1.1.2) (2018-04-06)
 
