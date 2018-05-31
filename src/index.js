@@ -1,5 +1,5 @@
 'use strict'
-import projectVersion from 'project-version'
+import pkgUp from 'read-pkg-up';
 
 export default (options) => {
     options = options || {};
@@ -9,7 +9,7 @@ export default (options) => {
     }
 
     return function version(request, response, next) {
-        response.header('x-version', projectVersion);
+        response.header('x-version', pkgUp.sync().pkg.version);
         next();
     }
 }

@@ -22,7 +22,7 @@
     "README.md"
   ],
   "dependencies": {
-    "project-version": "^1.0.0"
+    "read-pkg-up": "^3.0.0"
   },
   "devDependencies": {
     "jest": "^22.4.2",
