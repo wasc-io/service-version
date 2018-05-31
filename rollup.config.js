@@ -1,7 +1,7 @@
 import pkg from './package.json';
 
 export default {
-    external: ['project-version'],
+    external: Object.keys(pkg.dependencies),
     // CommonJS (for Node) and ES module (for bundlers) build.
     // (We could have three entries in the configuration array
     // instead of two, but it's quicker to generate multiple
