@@ -28,6 +28,6 @@
     "jest": "26.1.0",
     "rollup": "2.21.0",
     "rollup-plugin-commonjs": "10.1.0",
-    "standard-version": "8.0.0"
+    "standard-version": "8.0.1"
   }
 }
