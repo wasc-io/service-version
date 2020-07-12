@@ -6,9 +6,10 @@ export default (options = {}) => {
       'You might have used the module like `app.use(serviceVersion)`, but it should be `app.use(serviceVersion()`',
     );
   }
+  const { version } = pkgUp.sync().packageJson;
 
-  return function version(request, response, next) {
-    response.header('x-version', pkgUp.sync().pkg.version);
+  return function respondVersion(request, response, next) {
+    response.header('x-version', version);
     next();
   };
 };
