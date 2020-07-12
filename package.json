@@ -12,7 +12,6 @@
   "license": "Apache-2.0",
   "private": false,
   "scripts": {
-    "bump": "standard-version",
     "build": "rollup -c",
     "test": "jest"
   },
@@ -27,7 +26,6 @@
   "devDependencies": {
     "jest": "26.1.0",
     "rollup": "2.21.0",
-    "rollup-plugin-commonjs": "10.1.0",
-    "standard-version": "8.0.1"
+    "rollup-plugin-commonjs": "10.1.0"
   }
 }
