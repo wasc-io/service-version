@@ -35,10 +35,10 @@
     "read-pkg-up": "^7.0.0"
   },
   "devDependencies": {
-    "@wasc/tools": "^5.9.0",
-    "husky": "^4.2.5",
+    "@wasc/tools": "5.9.0",
+    "husky": "4.2.5",
     "jest": "26.1.0",
-    "lint-staged": "^10.2.11",
+    "lint-staged": "10.2.11",
     "rollup": "2.21.0",
     "rollup-plugin-commonjs": "10.1.0"
   }
