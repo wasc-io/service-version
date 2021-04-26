@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@wasc/tools": "5.9.0",
-    "husky": "4.2.5",
+    "husky": "6.0.0",
     "jest": "26.1.0",
     "lint-staged": "10.2.11",
     "rollup": "2.21.0",
