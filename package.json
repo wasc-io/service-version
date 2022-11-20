@@ -39,7 +39,7 @@
     "husky": "4.2.5",
     "jest": "26.1.0",
     "lint-staged": "10.2.11",
-    "rollup": "2.21.0",
+    "rollup": "2.79.1",
     "rollup-plugin-commonjs": "10.1.0"
   }
 }
