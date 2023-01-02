@@ -26,7 +26,7 @@
     "*.{js,json,graphql,md,html,ts,tsx}": "npm run format --"
   },
   "files": [
-    "dist",
+    "dist/",
     "docs/",
     "README.md"
   ],
